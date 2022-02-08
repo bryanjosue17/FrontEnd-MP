@@ -45,34 +45,61 @@ const FiscaliasList = () => {
       field: "agencia",
       headerName: "Agencia",
       sortable: true,
-      width: 200,
+      resize: 200,
+      align: "center",
+      headerAlign: "center",
     },
     {
       field: "codigo",
       headerName: "Codigo",
       sortable: true,
       width: 200,
+      align: "center",
+      headerAlign: "center",
     },
     {
-      field: "direccion",
-      headerName: "Dirección",
+      field: "tipo",
+      headerName: "Tipo fiscalía",
       sortable: true,
       width: 200,
+      align: "center",
+      headerAlign: "center",
+    },
+    {
+      field: "departamento",
+      headerName: "Departamento",
+      sortable: true,
+      width: 200,
+      align: "center",
+      headerAlign: "center",
+    },
+    {
+      field: "municipio",
+      headerName: "Municipio",
+      sortable: true,
+      width: 200,
+      align: "center",
+      headerAlign: "center",
     },
     {
       field: "telefono",
       headerName: "Teléfono",
       sortable: true,
       width: 200,
+      align: "center",
+      headerAlign: "center",
     },
     {
       field: "datetime",
       headerName: "Fecha ingreso",
       sortable: true,
       width: 200,
+      align: "center",
+      headerAlign: "center",
     },
     {
       field: "action",
+      headerAlign: "center",
       headerName: "Acciones",
       renderCell: (params) => {
         return (
@@ -84,6 +111,7 @@ const FiscaliasList = () => {
           </Link>
         );
       },
+      align: "center",
     },
   ];
 

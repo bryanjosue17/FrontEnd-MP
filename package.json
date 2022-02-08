@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@auth0/auth0-react": "^1.9.0",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@mui/material": "^5.4.0",
@@ -18,7 +19,7 @@
     "react-redux": "^7.2.6",
     "react-router-dom": "^5.3.0",
     "react-scripts": "5.0.0",
-    "react-toastify": "^8.1.1",
+    "react-toast-notifications": "^2.5.1",
     "redux": "^4.1.2",
     "redux-thunk": "^1.0.3",
     "web-vitals": "^2.1.4"
