@@ -16,7 +16,7 @@ const Login = () => {
         src={logo}
         alt="Logo"
       />
-      <h3 style={{ marginTop: "5%" }}>Debes iniciar sesión para continuar</h3>
+      <h3 style={{ marginTop: "5%" }}>Debe iniciar sesión para poder continuar</h3>
     </div>
   );
 };
