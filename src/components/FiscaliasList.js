@@ -45,7 +45,7 @@ const FiscaliasList = () => {
       field: "agencia",
       headerName: "Agencia",
       sortable: true,
-      resize: 200,
+      width: 200,
       align: "center",
       headerAlign: "center",
     },
