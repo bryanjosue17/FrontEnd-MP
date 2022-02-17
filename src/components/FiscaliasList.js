@@ -14,9 +14,12 @@ const FiscaliasList = () => {
   const [searchAgencia, setSearchAgencia] = useState("");
   const fiscalias = useSelector((state) => state.fiscalias);
   const dispatch = useDispatch();
+
+
   useEffect(() => {
     dispatch(retrieveFiscalias());
   }, [dispatch]);
+  
   const onChangeSearchAgencia = (e) => {
     const searchAgencia = e.target.value;
     setSearchAgencia(searchAgencia);

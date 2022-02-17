@@ -3,9 +3,10 @@ import { useDispatch } from "react-redux";
 import { createFiscalia } from "../store/actions/fiscalias";
 import { Guatemala } from "../const/guatemala";
 import { useToasts } from "react-toast-notifications";
-
 import moment from "moment";
+
 const AddFiscalia = () => {
+
   const initialFiscaliaState = {
     id: null,
     agencia: "",
@@ -16,9 +17,11 @@ const AddFiscalia = () => {
     telefono: "",
     datetime: "",
   };
+
   const [fiscalia, setFiscalia] = useState(initialFiscaliaState);
   const [deptos, setDepto] = useState([]);
   const [towns, setTown] = useState([]);
+
   const { addToast } = useToasts();
 
   const dispatch = useDispatch();
@@ -45,6 +48,7 @@ const AddFiscalia = () => {
     let data = Guatemala[value];
     setTown(data);
   };
+  
   const saveFiscalia = () => {
     const { agencia, codigo, tipo, departamento, municipio, telefono } =
       fiscalia;
